@@ -5,7 +5,7 @@ from sys import argv
 from os.path import exists, basename
 from argparse import ArgumentParser, FileType, RawTextHelpFormatter
 
-from result import MovieResult
+from movie_result import MovieResult
 
 def _padString(string: str, length: int):
   """
